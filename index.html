@@ -6,65 +6,69 @@
     <title>HTML, CSS & Git Basics</title>
     </head>
     <body>
-        <h1>Maria Riazanova</h1>
-        <img src="MR.jpg" alt="фото Рязановой М.В."/>
-        <h2>Contacts</h2>
-            <ul>
-                <li>email: mv_13@mail.ru</li> 
-                <li>phone: +375 29 163 09 05</li>
-                <li>skype: live:.cid.8fff64d1c38b1fab</li>
-            </ul>
-        <h2>Summary</h2>
-        <p>I’m a beginner in Front-end Development. Hard-working, willing to learn, organized.</p>
-        <h2>Skills</h2>
-            <ul>
-                <li>HTML5/CSS</li>
-                <li>JS</li>
-                <li>React</li>
-                <li>Git</li>
-                <li>webpack</li>
-            </ul>
-        <h2>Code samples</h2>
-            <code>
-            saveQuestion = (questiontype, question, answers, correctanswers) => {
-                this.setState({questiontype: questiontype, question: question,
-                                answers: answers, correctanswers: correctanswers
-                });
-                const questionInfo = {questiontype: questiontype,
-                                    question: question, answers: answers,
-                                    correctanswers: correctanswers}; 
-                const questionsInfoNew = this.state.questionsInfo.concat(questionInfo); 
-                this.setState({questionsInfo: questionsInfoNew}); 
-            } 
-            handleSubmit = (EO) => {
-                const quizInfoNew = {id: this.state.id, title: this.state.title, 
-                                    subject:this.state.subject, 
-                                    form: this.state.form, questions: this.state.questionsInfo};
-                this.setState({quizInfo: quizInfoNew, id: this.state.id + 1});                   
-                const quizInfoReady=JSON.stringify(quizInfoNew);
-                EO.preventDefault(quizInfoReady);
-                tasks.push(quizInfoNew);
-            }
-            </code>
-        <h2>Experience</h2>  
-        2020	IT-Academy
-                Project: Web application development with JavaScript (an image editor)
-                    Project role: web developer
-                        https://mariariazanova.github.io/image_editor/
-        2019-2020	IT-Academy
-                Project: Website development with HTML, CSS & JavaScript
-                    Project role: web designer, web developer
-                        https://mariariazanova.github.io/ntc/
-        
-        <h2>Education</h2>
-        present time	RSSchool (JS)
-        2020	IT-Academy (	Web application development with JavaScript)
-        2019-2020	IT-Academy (Website development with HTML, CSS & JavaScript)
-        International Sakharov Environmental University 
-        
-        <h2>English</h2>
-        Upper-intermediate. Fluent at speaking, writing and reading.
-        
-        
+        <div class="main">
+            <h1>Maria Riazanova</h1>
+            <img src="MR.jpg" alt="фото Рязановой М.В."/>
+            <h2>Contacts</h2>
+                <ul>
+                    <li>email: mv_13@mail.ru</li> 
+                    <li>phone: +375 29 163 09 05</li>
+                    <li>skype: live:.cid.8fff64d1c38b1fab</li>
+                </ul>
+            <h2>Summary</h2>
+            <p>I’m a beginner in Front-end Development. Hard-working, willing to learn, organized.</p>
+            <h2>Skills</h2>
+                <ul>
+                    <li>HTML5/CSS</li>
+                    <li>JS</li>
+                    <li>React</li>
+                    <li>Git</li>
+                    <li>webpack</li>
+                </ul>
+            <h2>Code samples</h2>
+                <code><pre>
+                saveQuestion = (questiontype, question, answers, correctanswers) => {
+                    this.setState({questiontype: questiontype, question: question,
+                                    answers: answers, correctanswers: correctanswers
+                    });
+                    const questionInfo = {questiontype: questiontype,
+                                        question: question, answers: answers,
+                                        correctanswers: correctanswers}; 
+                    const questionsInfoNew = this.state.questionsInfo.concat(questionInfo); 
+                    this.setState({questionsInfo: questionsInfoNew}); 
+                } 
+                handleSubmit = (EO) => {
+                    const quizInfoNew = {id: this.state.id, title: this.state.title, 
+                                        subject:this.state.subject, 
+                                        form: this.state.form, questions: this.state.questionsInfo};
+                    this.setState({quizInfo: quizInfoNew, id: this.state.id + 1});                   
+                    const quizInfoReady=JSON.stringify(quizInfoNew);
+                    EO.preventDefault(quizInfoReady);
+                    tasks.push(quizInfoNew);
+                }
+                </pre>
+                </code>
+            <h2>Experience</h2>  
+                <ul>
+                    <li>2020 - IT-Academy</li>
+                            <a href="https://mariariazanova.github.io/image_editor/">Project: Web application development with JavaScript (an image editor)</a>
+                            <p>Project role: web developer</p>
+                           
+                    <li>2019-2020 - IT-Academy</li>	
+                            <a href="https://mariariazanova.github.io/ntc/">Project: Website development with HTML, CSS & JavaScript</a>
+                            <p>Project role: web designer, web developer</p>
+                                    
+                </ul>
+            <h2>Education</h2>
+                <ul>
+                    <li>present time - 	RSSchool (JS)</li>
+                    <li>2020 -	IT-Academy (Web application development with JavaScript)</li>
+                    <li>2019-2020 -	IT-Academy (Website development with HTML, CSS & JavaScript)</li>
+                    <li>International Sakharov Environmental University</li>
+                </ul>
+            <h2>English</h2>
+                <p>Upper-intermediate. Fluent at speaking, writing and reading.</p>
+            
+        </div>
     </body>
 </html>
