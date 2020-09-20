@@ -39,4 +39,29 @@ I’m a beginner in Front-end Development. Hard-working, willing to learn, organ
     tasks.push(quizInfoNew);
   }
 ```
+## Experience
+* 2020   IT-Academy
+  * Project: [Web application development with JavaScript (an image editor)](https://mariariazanova.github.io/image_editor/)
+  * Project role: web developer
+  
+        
+* 2019-2020	IT-Academy 
+  * Project: [Website development with HTML, CSS & JavaScript](https://mariariazanova.github.io/ntc/)
+  *	Project role: web designer, web developer
+  
+
+## Education
+* present time	
+  * RSSchool (JS)
+  
+* 2020  
+  * IT-Academy (Web application development with JavaScript)
+  
+* 2019-2020 
+  * IT-Academy (Website development with HTML, CSS & JavaScript)
+  
+* International Sakharov Environmental University 
+
+## English
+Upper-intermediate. Fluent at speaking, writing and reading.
 
