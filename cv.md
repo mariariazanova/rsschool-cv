@@ -53,7 +53,7 @@ I’m a beginner in Front-end Development. Hard-working, willing to learn, organ
   
         
 * 2019-2020	IT-Academy 
-  * Project: [Website development with HTML, CSS & JavaScript](https://mariariazanova.github.io/ntc/)
+  * Project: [Website development with HTML, CSS & JavaScript](https://github.com/mariariazanova/ntc)
   *	Project role: web designer, web developer
   
 * present time	
