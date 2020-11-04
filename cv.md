@@ -48,7 +48,7 @@ I’m a beginner in Front-end Development. Hard-working, willing to learn, organ
   * Project role: designer, web developer
 
 * 2020   IT-Academy
-  * Project: [Web application development with JavaScript (an image editor)](https://mariariazanova.github.io/image_editor/)
+  * Project: [Web application development with JavaScript (an image editor)](https://github.com/mariariazanova/image_editor/)
   * Project role: designer, web developer
   
         
