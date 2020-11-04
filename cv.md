@@ -11,6 +11,7 @@ I’m a beginner in Front-end Development. Hard-working, willing to learn, organ
 ## Skills
 * HTML5/CSS
 * JS
+* TS
 * React
 * Git 
 * webpack
@@ -38,19 +39,35 @@ I’m a beginner in Front-end Development. Hard-working, willing to learn, organ
   }
 ```
 ## Experience
+* 2020   RSSchool
+  * Project: [Web application development with React (a quiz)](https://github.com/mariariazanova/songbird/)
+  * Project role: web developer
+
+* 2020   IT-Academy
+  * Project: [Web application development with React (a school quiz)](https://github.com/mariariazanova/schoolquiz/)
+  * Project role: designer, web developer
+
 * 2020   IT-Academy
   * Project: [Web application development with JavaScript (an image editor)](https://mariariazanova.github.io/image_editor/)
-  * Project role: web developer
+  * Project role: designer, web developer
   
         
 * 2019-2020	IT-Academy 
   * Project: [Website development with HTML, CSS & JavaScript](https://mariariazanova.github.io/ntc/)
   *	Project role: web designer, web developer
   
-
+* present time	
+  * Svetopribor (head of the deparment of EHS)  
+  
 ## Education
 * present time	
-  * RSSchool (JS)
+  * RSSchool (JavaScript)
+
+* 2020  
+  * RSSchool (React)  
+  
+* 2020  
+  * IT-Academy (Web development using React & Angular)
   
 * 2020  
   * IT-Academy (Web application development with JavaScript)
@@ -62,4 +79,7 @@ I’m a beginner in Front-end Development. Hard-working, willing to learn, organ
 
 ## English
 Upper-intermediate. Fluent at speaking, writing and reading.
+Other languages - Polish (Beginner), Spanish (Beginner).
 
+## Portfolio
+[Github](https://github.com/mariariazanova)
